@@ -1,3 +1,5 @@
 
-192.168.146.130   #rhel8server2
-192.168.146.133   #rhel8server1
+#192.168.146.130   #rhel8server2
+#192.168.146.133   #rhel8server1
+
+192.168.146.137    # ubuntuans1

@@ -1,0 +1,9 @@
+---
+
+- hosts: all   # install on all hosts
+  become: true # run with sudo
+  tasks:       # what tasks will be run
+
+  - name: install apache2 package # dash is under t, name=descriptive name
+    apt:                          # name of module, start under n
+      name: apache2               # name of package to install
